@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="Content">
+
+        <div id="left-content">
+            <h1 id="clock">00:00:00</h1>
+
+            <form id="login-form" class="hidden">
+                <h4>Please login to use.</h4>
+                <input id="name" maxlength="15" type="text" placeholder="What is your name?"/>
+                <input id="button" type="submit" value="LogIn"/>
+            </form>
+    
+            <div id="afterLogin">
+                <h1 id="greeting" class="hidden"></h1>
+                <h3 class="hidden">Let's work hard again today!</h3>
+                <div id="quote">
+                    <p></p>
+                    <p></p>
+                </div>
+            </div>
+
+            <div id="weather-form">
+                <p id="comment">Your weather is...</p>
+                <p id="city"></p>
+                <p id="weather"></p>
+            </div>
+        </div>
+
+
+
+        <div id="right-content">
+            <form id="todo-form">
+                <input id="writeTodo" type="text" placeholder="Write a To Do and Enter" required>
+            </form>
+            <div id="list">
+                <ul id="todo-list"></ul>
+            </div>
+        </div>
+    
+    </div>
+
+
+    <script src="js/login.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
