@@ -72,6 +72,11 @@ span {
     margin-top: 10px;
 }
 
+button {
+    padding: 1px;
+    margin-left: 10px;
+}
+
 
 #greeting {
     font-size: 40px;
